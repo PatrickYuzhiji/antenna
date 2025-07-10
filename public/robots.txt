@@ -1,0 +1,23 @@
+# Allow all search engine crawlers
+User-agent: *
+Allow: /
+
+# Disallow administrative, duplicate, or private paths
+Disallow: /api/
+Disallow: /_next/
+Disallow: /_vercel/
+Disallow: /server-sitemap.xml
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*?debug=*
+Disallow: /*?preview=*
+
+# Crawl delay for certain bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+# Sitemap locations
+Sitemap: https://aussietechit.com.au/sitemap.xml 

@@ -1,0 +1,19 @@
+{
+  "name": "Aussietech Masters",
+  "short_name": "Aussietech",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#253a62",
+  "background_color": "#253a62",
+  "display": "standalone"
+}
