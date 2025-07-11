@@ -7,13 +7,13 @@ export default function WhyChooseUsIt() {
       <section className="bg-[#2C3E50] py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 text-center">
-            IT Support & Networking Services – Aussie Tech Masters
+            IT Support & Networking Services – IT Tech
           </h1>
           <h2 className="text-2xl text-[#F39C12] mb-8 text-center font-medium">
             Reliable IT solutions for homes & businesses!
           </h2>
           <p className="text-white text-lg max-w-4xl mx-auto text-center leading-relaxed">
-            At Aussie Tech Masters, we provide comprehensive IT support, network
+            At IT Tech, we provide comprehensive IT support, network
             installation, cybersecurity, cloud solutions, and troubleshooting to
             keep your systems running smoothly. Whether you need help with
             device setup, data recovery, or business IT infrastructure, we have
@@ -29,7 +29,7 @@ export default function WhyChooseUsIt() {
       <section className="bg-[#2C3E50] py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center text-white mb-12">
-            Why Choose Aussie Tech Masters?
+            Why Choose IT Tech?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {[

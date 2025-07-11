@@ -17,16 +17,15 @@ export default function HeroAbout() {
         <div className="container mx-auto px-4 py-12 relative z-20">
           <div className="max-w-4xl mx-auto text-center mb-8">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              About Us – Aussie Tech Masters
+              About Us – IT Tech
             </h1>
             <p className="text-xl md:text-2xl text-[#F39C12] font-semibold mb-6">
               Smart Solutions. Local Service. Reliable Results.
             </p>
             <p className="text-lg leading-relaxed">
-              At Aussie Tech Masters, we&apos;re more than just technicians —
-              we&apos;re your local tech partners, proudly helping homes and
-              businesses across South East Queensland stay connected, secure,
-              and supported.
+              At IT Tech, we&apos;re more than just technicians — we&apos;re
+              your local tech partners, proudly helping homes and businesses
+              across New South Wales stay connected, secure, and supported.
             </p>
           </div>
         </div>
@@ -124,7 +123,7 @@ export default function HeroAbout() {
           <div className="mb-12">
             <h2 className="text-2xl md:text-3xl font-bold mb-8 flex items-center">
               <FaLaptop className="text-[#F39C12] mr-3" />
-              Why Choose Aussie Tech Masters?
+              Why Choose IT Tech?
             </h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mx-auto max-w-6xl">
@@ -182,7 +181,8 @@ export default function HeroAbout() {
                 <div className="flex items-center mb-4">
                   <FaMapMarkerAlt className="text-2xl mr-3" />
                   <p className="text-lg font-semibold">
-                    Servicing Brisbane, Gold Coast, Ipswich, Redland
+                    Servicing Wollongong, Sydney, Newcastle, and the Central
+                    Coast
                   </p>
                 </div>
                 <div className="flex items-center">

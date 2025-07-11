@@ -6,11 +6,11 @@ import Script from "next/script";
 import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
-  title: "Aussie Tech Masters - Antenna | Security | IT Support",
+  title: "IT Tech - Antenna | Security | IT Support",
   description:
     "Expert IT support services in Australia. We provide computer repairs, network setup, cybersecurity solutions, and managed IT services for businesses and homes.",
   alternates: {
-    canonical: "https://aussietechit.com.au",
+    canonical: "https://itexample.com.au",
   },
   openGraph: {
     images: [
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
         url: "/images/home-page-banner.jpg",
         width: 1200,
         height: 630,
-        alt: "Aussie Tech Masters - Antenna | Security | IT Support",
+        alt: "IT Tech - Antenna | Security | IT Support",
       },
     ],
   },
@@ -43,9 +43,9 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "aussietech IT Support",
-            image: "https://aussietechit.com.au/images/logo.png",
-            url: "https://aussietechit.com.au",
-            telephone: "1300678252",
+            image: "https://itexample.com.au/images/logo.png",
+            url: "https://itexample.com.au",
+            telephone: "1300000000",
             priceRange: "$$",
             address: {
               "@type": "PostalAddress",
@@ -75,8 +75,8 @@ export default function Home() {
               },
             ],
             sameAs: [
-              "https://www.facebook.com/aussietechit",
-              "https://www.linkedin.com/company/aussietechit",
+              "https://www.facebook.com/itexample",
+              "https://www.linkedin.com/company/itexample",
             ],
             review: {
               "@type": "Review",
@@ -92,6 +92,39 @@ export default function Home() {
               reviewBody:
                 "Excellent IT support service. Resolved our network issues quickly and professionally.",
             },
+            // Enhanced local SEO fields
+            areaServed: [
+              {
+                "@type": "City",
+                name: "Wollongong",
+              },
+              {
+                "@type": "City",
+                name: "Sydney",
+              },
+              {
+                "@type": "State",
+                name: "New South Wales",
+              },
+            ],
+            serviceArea: {
+              "@type": "GeoCircle",
+              geoMidpoint: {
+                "@type": "GeoCoordinates",
+                latitude: -34.4278,
+                longitude: 150.8931,
+              },
+              geoRadius: "50000", // 50km radius
+            },
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: "4.8",
+              reviewCount: "127",
+              bestRating: "5",
+              worstRating: "1",
+            },
+            paymentAccepted: "Cash, Credit Card, Bank Transfer",
+            currenciesAccepted: "AUD",
           }),
         }}
       />

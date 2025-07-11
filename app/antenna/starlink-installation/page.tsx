@@ -67,7 +67,7 @@ export default function StarlinkInstallation() {
 
           <div className="mt-12 bg-[#F39C12]/10 p-8 rounded-lg">
             <h3 className="text-2xl font-semibold text-[#2C3E50] mb-4">
-              What We Offer at Aussie Tech Masters
+              What We Offer at IT Tech
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="flex items-start">

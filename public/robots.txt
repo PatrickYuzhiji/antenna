@@ -20,4 +20,4 @@ User-agent: SemrushBot
 Crawl-delay: 10
 
 # Sitemap locations
-Sitemap: https://aussietechit.com.au/sitemap.xml 
+Sitemap: https://itexample.com.au/sitemap.xml 

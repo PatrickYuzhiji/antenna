@@ -3,15 +3,15 @@
 import { useState } from "react";
 import Link from "next/link";
 export default function HeroArea() {
-  const [openArea, setOpenArea] = useState<string | null>("Brisbane");
+  const [openArea, setOpenArea] = useState<string | null>("Wollongong");
 
   const areas = [
-    "Brisbane",
+    "Wollongong",
     "Logan",
     "Moreton Bay",
     "Ipswich",
     "Redland Bay",
-    "Gold Coast",
+    "",
   ];
 
   return (

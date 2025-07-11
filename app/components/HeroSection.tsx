@@ -20,7 +20,7 @@ export default function HeroSection() {
               Reliable Antenna, Security & IT Support Solutions
             </h1>
             <h2 className="text-xl md:text-2xl mb-8 text-[#F39C12] font-medium">
-              Servicing Brisbane and Gold Coast!
+              Servicing Wollongong!
             </h2>
 
             <p className="max-w-2xl mx-auto lg:mx-0 mb-8 text-lg">

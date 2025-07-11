@@ -13,12 +13,12 @@ export default function Header() {
             <Link
               href="/"
               className="flex items-center justify-center hover:opacity-90 transition-opacity duration-300 cursor-pointer"
-              aria-label=" Aussie Tech Masters - Home"
+              aria-label=" IT Tech - Home"
             >
               <Image
                 src="/images/logo.png"
                 alt="logo"
-                width={150}
+                width={100}
                 height={50}
                 className="h-auto w-auto"
                 priority={true}
@@ -33,20 +33,20 @@ export default function Header() {
                 role="contentinfo"
               >
                 <a
-                  href="tel:1300269162"
+                  href="tel:1300000000"
                   className="flex items-center hover:text-[#F39C12] transition-colors"
-                  aria-label="Call us at 1300 269 162"
+                  aria-label="Call us at 1300 000 000"
                 >
                   <FaPhone className="mr-2" aria-hidden="true" />
-                  <span>1300 269 162</span>
+                  <span>1300 000 000</span>
                 </a>
                 <a
-                  href="mailto:info@aussietechmasters.com.au"
+                  href="mailto:info@example.com.au"
                   className="flex items-center hover:text-[#F39C12] transition-colors"
-                  aria-label="Email us at info@aussietechmasters.com.au"
+                  aria-label="Email us at info@example.com.au"
                 >
                   <FaEnvelope className="mr-2" aria-hidden="true" />
-                  <span>info@aussietechmasters.com.au</span>
+                  <span>info@example.com.au</span>
                 </a>
                 <Link
                   href="/book"

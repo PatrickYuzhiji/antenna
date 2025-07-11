@@ -25,7 +25,7 @@ export const CustomerEmailTemplate: React.FC<CustomerEmailTemplateProps> = ({
             fontSize: "24px",
           }}
         >
-          Thanks for Reaching Out to Aussie Tech Masters!
+          Thanks for Reaching Out to IT Tech!
         </h1>
       </div>
 
@@ -57,8 +57,8 @@ export const CustomerEmailTemplate: React.FC<CustomerEmailTemplateProps> = ({
             marginBottom: "20px",
           }}
         >
-          Thanks for getting in touch with Aussie Tech Masters – we&apos;ve
-          received your enquiry and we&apos;re here to help!
+          Thanks for getting in touch with IT Tech – we&apos;ve received your
+          enquiry and we&apos;re here to help!
         </p>
 
         <p
@@ -102,7 +102,7 @@ export const CustomerEmailTemplate: React.FC<CustomerEmailTemplateProps> = ({
               color: "#2C3E50",
             }}
           >
-            📍 Areas we service: Brisbane, Gold Coast & surrounding suburbs
+            📍 Areas we service: Wollongong, & surrounding suburbs
           </p>
           <p
             style={{
@@ -138,12 +138,8 @@ export const CustomerEmailTemplate: React.FC<CustomerEmailTemplateProps> = ({
           <p style={{ margin: "0 0 5px 0", color: "#64748b" }}>
             Owner / Technician
           </p>
-          <p style={{ margin: "0 0 5px 0", fontWeight: "bold" }}>
-            Aussie Tech Masters
-          </p>
-          <p style={{ margin: "0 0 5px 0" }}>
-            📧 info@aussietechmasters.com.au
-          </p>
+          <p style={{ margin: "0 0 5px 0", fontWeight: "bold" }}>IT Tech</p>
+          <p style={{ margin: "0 0 5px 0" }}>📧 info@example.com.au</p>
           <p style={{ margin: "0" }}>🌐 www.aussietechmasters.com.au</p>
         </div>
       </div>

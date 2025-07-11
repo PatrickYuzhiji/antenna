@@ -43,8 +43,7 @@ Comments: ${details}`;
         <hr style={divider} />
 
         <p style={footer}>
-          © {new Date().getFullYear()} Aussie Tech Masters. All rights
-          reserved.
+          © {new Date().getFullYear()} IT Tech. All rights reserved.
         </p>
       </div>
     </div>

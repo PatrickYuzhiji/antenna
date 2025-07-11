@@ -24,10 +24,10 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://aussietechit.com.au"),
+  metadataBase: new URL("https://itexample.com.au"),
   title: {
-    template: "%s | Aussie Tech Masters",
-    default: "Aussie Tech Masters - Antenna | Security | IT Support",
+    template: "%s | IT Tech",
+    default: "IT Tech - Antenna | Security | IT Support",
   },
   description:
     "Professional IT support services for businesses and homes in Australia. Computer repairs, network setup, cybersecurity, and managed IT solutions.",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     "residential IT",
     "Australia",
   ],
-  authors: [{ name: "Aussie Tech Masters" }],
+  authors: [{ name: "IT Tech" }],
   formatDetection: {
     email: false,
     address: false,
@@ -66,8 +66,8 @@ export const metadata: Metadata = {
     title: "aussietech IT Support | IT Services for Business & Residential",
     description:
       "Professional IT support services for businesses and homes in Australia. Computer repairs, network setup, cybersecurity, and managed IT solutions.",
-    url: "https://aussietechit.com.au",
-    siteName: "Aussie Tech Masters",
+    url: "https://itexample.com.au",
+    siteName: "IT Tech",
     locale: "en_AU",
     type: "website",
     images: [
@@ -129,8 +129,18 @@ export default function RootLayout({
         <meta name="msapplication-TileColor" content="#2C3E50" />
         <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
         <meta name="theme-color" content="#2C3E50" />
+        {/* Additional SEO Meta Tags */}
+        <meta name="author" content="IT Tech Australia" />
+        <meta name="language" content="en-AU" />
+        <meta name="distribution" content="global" />
+        <meta name="rating" content="general" />
+        <meta name="revisit-after" content="7 days" />
+        <link rel="canonical" href="https://itexample.com.au" />
         {/* Google tag (gtag.js) */}
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-Z3JE545VNL"></Script>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-Z3JE545VNL"
+        ></Script>
         <Script id="google-analytics">
           {`
             window.dataLayer = window.dataLayer || [];
@@ -155,7 +165,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "ITService",
               name: "aussietech IT Support",
-              url: "https://aussietechit.com.au",
+              url: "https://itexample.com.au",
               logo: "/images/logo.png",
               description:
                 "Professional IT support services for businesses and homes in Australia.",
@@ -165,11 +175,11 @@ export default function RootLayout({
                 addressRegion: "NSW",
                 addressCountry: "AU",
               },
-              telephone: "1300678252",
-              email: "info@aussietechit.com.au",
+              telephone: "1300000000",
+              email: "info@itexample.com.au",
               sameAs: [
-                "https://www.facebook.com/aussietechit",
-                "https://www.linkedin.com/company/aussietechit",
+                "https://www.facebook.com/itexample",
+                "https://www.linkedin.com/company/itexample",
               ],
             }),
           }}

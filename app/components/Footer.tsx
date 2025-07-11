@@ -47,7 +47,7 @@ export default function Footer() {
                 </svg>
               </div>
               <div>
-                <div className="text-lg font-bold">1300 269 162</div>
+                <div className="text-lg font-bold">1300 000 000</div>
                 <div className="text-sm">Call us today</div>
               </div>
             </div>
@@ -75,7 +75,7 @@ export default function Footer() {
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 </svg>
-                info@aussietechmasters.com.au
+                info@example.com.au
               </p>
             </div>
           </div>
@@ -84,8 +84,7 @@ export default function Footer() {
         <div className="mt-10 pt-6 border-t border-gray-200">
           <div className="container mx-auto px-4">
             <p className="text-center">
-              © {new Date().getFullYear()} Aussie Tech Masters. All rights
-              reserved.
+              © {new Date().getFullYear()} IT Tech. All rights reserved.
             </p>
           </div>
         </div>
