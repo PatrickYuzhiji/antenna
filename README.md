@@ -92,9 +92,9 @@ A modern, full-stack Next.js website for IT Tech, a professional IT support comp
    RESEND_API_KEY=your_resend_api_key
 
    # Sanity CMS Configuration
-   NEXT_PUBLIC_SANITY_PROJECT_ID=your_sanity_project_id
-   NEXT_PUBLIC_SANITY_DATASET=production
-   NEXT_PUBLIC_SANITY_API_VERSION=2025-04-14
+   SANITY_PROJECT_ID=your_sanity_project_id
+   SANITY_DATASET=production
+   SANITY_API_VERSION=2025-04-14
    SANITY_PROJECT_ID=your_sanity_project_id
    SANITY_DATASET=production
    SANITY_API_VERSION=2025-04-14
