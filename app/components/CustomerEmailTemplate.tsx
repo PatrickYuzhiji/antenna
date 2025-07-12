@@ -139,7 +139,7 @@ export const CustomerEmailTemplate: React.FC<CustomerEmailTemplateProps> = ({
             Owner / Technician
           </p>
           <p style={{ margin: "0 0 5px 0", fontWeight: "bold" }}>IT Tech</p>
-          <p style={{ margin: "0 0 5px 0" }}>📧 info@example.com.au</p>
+          <p style={{ margin: "0 0 5px 0" }}>📧 hi@patrickyu.work</p>
           <p style={{ margin: "0" }}>🌐 www.aussietechmasters.com.au</p>
         </div>
       </div>

@@ -43,15 +43,15 @@ export async function POST(req: Request) {
     try {
       // Send notification email to business
       const businessEmail = await resend.emails.send({
-        from: "info@example.com.au",
-        to: "info@example.com.au",
+        from: "hi@patrickyu.work",
+        to: "hi@patrickyu.work",
         subject: `New Quote Request from ${firstName} ${lastName}`,
         react: EmailTemplate(body) as React.ReactElement,
       });
 
       // Send confirmation email to customer
       const customerEmail = await resend.emails.send({
-        from: "info@example.com.au",
+        from: "hi@patrickyu.work",
         to: email,
         subject: "Thanks for Reaching Out to IT Tech!",
         react: CustomerEmailTemplate({ firstName }) as React.ReactElement,

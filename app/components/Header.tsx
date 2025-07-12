@@ -41,12 +41,12 @@ export default function Header() {
                   <span>1300 000 000</span>
                 </a>
                 <a
-                  href="mailto:info@example.com.au"
+                  href="mailto:hi@patrickyu.work"
                   className="flex items-center hover:text-[#F39C12] transition-colors"
-                  aria-label="Email us at info@example.com.au"
+                  aria-label="Email us at hi@patrickyu.work"
                 >
                   <FaEnvelope className="mr-2" aria-hidden="true" />
-                  <span>info@example.com.au</span>
+                  <span>hi@patrickyu.work</span>
                 </a>
                 <Link
                   href="/book"
